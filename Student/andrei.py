@@ -79,13 +79,13 @@
 # trapezium_area = ((int(a) + int(b)) / 2) * int(h)
 # print(trapezium_area)
 
-# print('trapezium_area')
-# a, b, c, d = input('Please enter sides A, B, C and D Use spase separator: ').split()
-# trapezium_area = ((int(a) + int(b)) / 2) * (((int(c) ** 2) - (((((int(b) - int(a)) ** 2) + (int(c) ** 2) -
-#                                                                (int(d) ** 2)) / (2 * (int(b) - int(a)))) ** 2)) ** 0.5)
-# print(trapezium_area)
+print('trapezium_area')
+a, b, c, d = input('Please enter sides A, B, C and D Use spase separator: ').split()
+trapezium_area = ((int(a) + int(b)) / 2) * (((int(c) ** 2) - (((((int(b) - int(a)) ** 2) + (int(c) ** 2) -
+                                                               (int(d) ** 2)) / (2 * (int(b) - int(a)))) ** 2)) ** 0.5)
+print(trapezium_area)
 
-print('equilateral_triangle_area')
-a = input('Please enter side A: ')
-equilateral_triangle_area = ((3 ** 0.5) * (int(a) ** 2)) / 4
-print(equilateral_triangle_area)
+# print('equilateral_triangle_area')
+# a = input('Please enter side A: ')
+# equilateral_triangle_area = ((3 ** 0.5) * (int(a) ** 2)) / 4
+# print(equilateral_triangle_area)
